@@ -1,0 +1,18 @@
+class Either<L,R>{
+  final L? _left;
+  final R? _right;
+
+  Either._(this._left, this._right);
+
+  factory Either.left(L left) => Either._(left, null);
+
+  factory Either.right(R right) => Either._(null, right);
+
+  bool isLeft() => _left != null;
+
+  bool isRight() => _right != null;
+
+  L get left => _left == null ? throw StateError('Called Left on Right'): left;
+
+  R get right => _right == null ? throw StateError('Called Right on Left'): right;
+}
