@@ -12,7 +12,20 @@
           "package_name": "com.example.hana"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "293875450318-stj4ffl44c21ddd31i7gfvh47sf3k0vl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hana",
+            "certificate_hash": "b53634ee04f5fe285b3c832d7c9afeef76085479"
+          }
+        },
+        {
+          "client_id": "293875450318-9r8q2o99t75atuaf8vuilidsfodtjklr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAUmhkpfwpVgQx-3paSDdpecrMD8kzvkkg"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "293875450318-9r8q2o99t75atuaf8vuilidsfodtjklr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "293875450318-ractn0ju63c0k1eg5th6rlip4o7hqnlh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.hana"
+              }
+            }
+          ]
         }
       }
     }
