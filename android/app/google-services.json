@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293875450318",
+    "project_id": "hana-9c059",
+    "storage_bucket": "hana-9c059.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293875450318:android:1a30802c18e21000936b9f",
+        "android_client_info": {
+          "package_name": "com.example.hana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUmhkpfwpVgQx-3paSDdpecrMD8kzvkkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
